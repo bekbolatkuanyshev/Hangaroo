@@ -1,0 +1,813 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		181F7B411F02611000572FD6 /* ThemesListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F7B401F02611000572FD6 /* ThemesListCollectionViewCell.swift */; };
+		183521B01EFB933200E1B816 /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 183521AF1EFB933200E1B816 /* words.json */; };
+		183521B21EFBBBBF00E1B816 /* ThemesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183521B11EFBBBBF00E1B816 /* ThemesViewController.swift */; };
+		186D664D1EFD350000FB2BF6 /* Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186D664C1EFD350000FB2BF6 /* Words.swift */; };
+		187454411F25CE5A00FC51E2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187454401F25CE5A00FC51E2 /* SettingsViewController.swift */; };
+		1878FE1B1EF1024C00BCD443 /* BottomKeyboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1878FE1A1EF1024C00BCD443 /* BottomKeyboardCollectionViewCell.swift */; };
+		188075F31EF27B7A00D33EA6 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188075F21EF27B7A00D33EA6 /* extensions.swift */; };
+		188075FB1EF27F1000D33EA6 /* AnswerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188075FA1EF27F1000D33EA6 /* AnswerCollectionViewCell.swift */; };
+		188EA7061EEFA8CF00873216 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EA7051EEFA8CF00873216 /* AppDelegate.swift */; };
+		188EA7081EEFA8CF00873216 /* PlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EA7071EEFA8CF00873216 /* PlayViewController.swift */; };
+		188EA70D1EEFA8CF00873216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 188EA70C1EEFA8CF00873216 /* Assets.xcassets */; };
+		188EA7101EEFA8CF00873216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 188EA70E1EEFA8CF00873216 /* LaunchScreen.storyboard */; };
+		188EA71B1EEFA8CF00873216 /* HangarooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EA71A1EEFA8CF00873216 /* HangarooTests.swift */; };
+		188EA7261EEFA8CF00873216 /* HangarooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EA7251EEFA8CF00873216 /* HangarooUITests.swift */; };
+		188EA7341EEFE2E200873216 /* TopKeyboardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188EA7331EEFE2E200873216 /* TopKeyboardCollectionViewCell.swift */; };
+		18A9FDF11EF7F839006C9D16 /* Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A9FDF01EF7F839006C9D16 /* Support.swift */; };
+		18F588461F04CD6500D4ECB8 /* TrashHand.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 18F588451F04CD0D00D4ECB8 /* TrashHand.TTF */; };
+		2286F7DF6F8B7435404D5CD5 /* Pods_HangarooUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63BFA7F14BB2669F9C8CFFD /* Pods_HangarooUITests.framework */; };
+		31804E49D742D85031DC2DF0 /* Pods_Hangaroo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 330C4C1E601CD754275AA307 /* Pods_Hangaroo.framework */; };
+		35A13960A2984D1BD2B9A5EE /* Pods_HangarooTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8A8A8EB53EDD85D499EEA7C /* Pods_HangarooTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		188EA7171EEFA8CF00873216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188EA6FA1EEFA8CF00873216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188EA7011EEFA8CF00873216;
+			remoteInfo = Hangaroo;
+		};
+		188EA7221EEFA8CF00873216 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 188EA6FA1EEFA8CF00873216 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188EA7011EEFA8CF00873216;
+			remoteInfo = Hangaroo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012E5D2D6C4AC70EBDAEBA90 /* Pods-HangarooUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangarooUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangarooUITests/Pods-HangarooUITests.release.xcconfig"; sourceTree = "<group>"; };
+		0A52408C56164FE7714AC951 /* Pods-Hangaroo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangaroo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hangaroo/Pods-Hangaroo.debug.xcconfig"; sourceTree = "<group>"; };
+		0C6256E9909735FED6496A0C /* Pods-Hangaroo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hangaroo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hangaroo/Pods-Hangaroo.release.xcconfig"; sourceTree = "<group>"; };
+		181F7B401F02611000572FD6 /* ThemesListCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesListCollectionViewCell.swift; sourceTree = "<group>"; };
+		183521AF1EFB933200E1B816 /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		183521B11EFBBBBF00E1B816 /* ThemesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemesViewController.swift; sourceTree = "<group>"; };
+		186815FB1F0B8F3D00232C39 /* SQLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SQLite.framework; path = "../../Library/Developer/Xcode/DerivedData/Hangaroo-dqcikhpfikzfczewovxokhrsubdb/Build/Products/Debug-iphonesimulator/SQLite.swift/SQLite.framework"; sourceTree = "<group>"; };
+		186D664C1EFD350000FB2BF6 /* Words.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Words.swift; sourceTree = "<group>"; };
+		187454401F25CE5A00FC51E2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1878FE1A1EF1024C00BCD443 /* BottomKeyboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomKeyboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		188075F21EF27B7A00D33EA6 /* extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		188075FA1EF27F1000D33EA6 /* AnswerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerCollectionViewCell.swift; sourceTree = "<group>"; };
+		188EA7021EEFA8CF00873216 /* Hangaroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangaroo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EA7051EEFA8CF00873216 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		188EA7071EEFA8CF00873216 /* PlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayViewController.swift; sourceTree = "<group>"; };
+		188EA70C1EEFA8CF00873216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		188EA70F1EEFA8CF00873216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		188EA7111EEFA8CF00873216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EA7161EEFA8CF00873216 /* HangarooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangarooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EA71A1EEFA8CF00873216 /* HangarooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangarooTests.swift; sourceTree = "<group>"; };
+		188EA71C1EEFA8CF00873216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EA7211EEFA8CF00873216 /* HangarooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangarooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		188EA7251EEFA8CF00873216 /* HangarooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HangarooUITests.swift; sourceTree = "<group>"; };
+		188EA7271EEFA8CF00873216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EA7331EEFE2E200873216 /* TopKeyboardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopKeyboardCollectionViewCell.swift; sourceTree = "<group>"; };
+		18A9FDF01EF7F839006C9D16 /* Support.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Support.swift; sourceTree = "<group>"; };
+		18F588451F04CD0D00D4ECB8 /* TrashHand.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrashHand.TTF; sourceTree = "<group>"; };
+		259C63DE3F85CD8040B9281B /* Pods-HangarooTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangarooTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangarooTests/Pods-HangarooTests.debug.xcconfig"; sourceTree = "<group>"; };
+		330C4C1E601CD754275AA307 /* Pods_Hangaroo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hangaroo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8A8A8EB53EDD85D499EEA7C /* Pods_HangarooTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HangarooTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49646547AA1AC31A7CFDC10 /* Pods-HangarooUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangarooUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HangarooUITests/Pods-HangarooUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B63BFA7F14BB2669F9C8CFFD /* Pods_HangarooUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HangarooUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4364C501D9AB08A98350A7F /* Pods-HangarooTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HangarooTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HangarooTests/Pods-HangarooTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		188EA6FF1EEFA8CF00873216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31804E49D742D85031DC2DF0 /* Pods_Hangaroo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA7131EEFA8CF00873216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35A13960A2984D1BD2B9A5EE /* Pods_HangarooTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA71E1EEFA8CF00873216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2286F7DF6F8B7435404D5CD5 /* Pods_HangarooUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145D133D95498B4FA521E810 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A52408C56164FE7714AC951 /* Pods-Hangaroo.debug.xcconfig */,
+				0C6256E9909735FED6496A0C /* Pods-Hangaroo.release.xcconfig */,
+				259C63DE3F85CD8040B9281B /* Pods-HangarooTests.debug.xcconfig */,
+				F4364C501D9AB08A98350A7F /* Pods-HangarooTests.release.xcconfig */,
+				B49646547AA1AC31A7CFDC10 /* Pods-HangarooUITests.debug.xcconfig */,
+				012E5D2D6C4AC70EBDAEBA90 /* Pods-HangarooUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		183521AD1EFA900E00E1B816 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				188EA7051EEFA8CF00873216 /* AppDelegate.swift */,
+				187454401F25CE5A00FC51E2 /* SettingsViewController.swift */,
+				183521B11EFBBBBF00E1B816 /* ThemesViewController.swift */,
+				188EA7071EEFA8CF00873216 /* PlayViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		183521AE1EFA902B00E1B816 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				188075F21EF27B7A00D33EA6 /* extensions.swift */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		183521B31EFBBC2400E1B816 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				18F588451F04CD0D00D4ECB8 /* TrashHand.TTF */,
+				18A9FDF01EF7F839006C9D16 /* Support.swift */,
+				188EA70C1EEFA8CF00873216 /* Assets.xcassets */,
+				188EA70E1EEFA8CF00873216 /* LaunchScreen.storyboard */,
+				188EA7111EEFA8CF00873216 /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		183521B41EFBBC4600E1B816 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				188EA7331EEFE2E200873216 /* TopKeyboardCollectionViewCell.swift */,
+				1878FE1A1EF1024C00BCD443 /* BottomKeyboardCollectionViewCell.swift */,
+				188075FA1EF27F1000D33EA6 /* AnswerCollectionViewCell.swift */,
+				181F7B401F02611000572FD6 /* ThemesListCollectionViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		183521B51EFBBC6800E1B816 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				183521AF1EFB933200E1B816 /* words.json */,
+				186D664C1EFD350000FB2BF6 /* Words.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		186816001F0B8FF700232C39 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+		188EA6F91EEFA8CF00873216 = {
+			isa = PBXGroup;
+			children = (
+				188EA7041EEFA8CF00873216 /* Hangaroo */,
+				188EA7191EEFA8CF00873216 /* HangarooTests */,
+				188EA7241EEFA8CF00873216 /* HangarooUITests */,
+				188EA7031EEFA8CF00873216 /* Products */,
+				145D133D95498B4FA521E810 /* Pods */,
+				63054C4193C440E6E0F9C6AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		188EA7031EEFA8CF00873216 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				188EA7021EEFA8CF00873216 /* Hangaroo.app */,
+				188EA7161EEFA8CF00873216 /* HangarooTests.xctest */,
+				188EA7211EEFA8CF00873216 /* HangarooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		188EA7041EEFA8CF00873216 /* Hangaroo */ = {
+			isa = PBXGroup;
+			children = (
+				186816001F0B8FF700232C39 /* Database */,
+				183521AE1EFA902B00E1B816 /* extension */,
+				183521B51EFBBC6800E1B816 /* Model */,
+				183521B41EFBBC4600E1B816 /* Views */,
+				183521AD1EFA900E00E1B816 /* Controller */,
+				183521B31EFBBC2400E1B816 /* Support */,
+			);
+			path = Hangaroo;
+			sourceTree = "<group>";
+		};
+		188EA7191EEFA8CF00873216 /* HangarooTests */ = {
+			isa = PBXGroup;
+			children = (
+				188EA71A1EEFA8CF00873216 /* HangarooTests.swift */,
+				188EA71C1EEFA8CF00873216 /* Info.plist */,
+			);
+			path = HangarooTests;
+			sourceTree = "<group>";
+		};
+		188EA7241EEFA8CF00873216 /* HangarooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				188EA7251EEFA8CF00873216 /* HangarooUITests.swift */,
+				188EA7271EEFA8CF00873216 /* Info.plist */,
+			);
+			path = HangarooUITests;
+			sourceTree = "<group>";
+		};
+		63054C4193C440E6E0F9C6AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				186815FB1F0B8F3D00232C39 /* SQLite.framework */,
+				330C4C1E601CD754275AA307 /* Pods_Hangaroo.framework */,
+				A8A8A8EB53EDD85D499EEA7C /* Pods_HangarooTests.framework */,
+				B63BFA7F14BB2669F9C8CFFD /* Pods_HangarooUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		188EA7011EEFA8CF00873216 /* Hangaroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EA72A1EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "Hangaroo" */;
+			buildPhases = (
+				CC5A6ED4018D57C24B4C32F5 /* [CP] Check Pods Manifest.lock */,
+				188EA6FE1EEFA8CF00873216 /* Sources */,
+				188EA6FF1EEFA8CF00873216 /* Frameworks */,
+				188EA7001EEFA8CF00873216 /* Resources */,
+				B451FD382B02BE4587EB0BFC /* [CP] Embed Pods Frameworks */,
+				98710B53EAE6BF5C9AD4FE46 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangaroo;
+			productName = Hangaroo;
+			productReference = 188EA7021EEFA8CF00873216 /* Hangaroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		188EA7151EEFA8CF00873216 /* HangarooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EA72D1EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "HangarooTests" */;
+			buildPhases = (
+				3807B087B037EE9588897F5C /* [CP] Check Pods Manifest.lock */,
+				188EA7121EEFA8CF00873216 /* Sources */,
+				188EA7131EEFA8CF00873216 /* Frameworks */,
+				188EA7141EEFA8CF00873216 /* Resources */,
+				8923F2F4F2196A79C90DC06E /* [CP] Embed Pods Frameworks */,
+				5F98738C4B2E750823328C8D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188EA7181EEFA8CF00873216 /* PBXTargetDependency */,
+			);
+			name = HangarooTests;
+			productName = HangarooTests;
+			productReference = 188EA7161EEFA8CF00873216 /* HangarooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		188EA7201EEFA8CF00873216 /* HangarooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 188EA7301EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "HangarooUITests" */;
+			buildPhases = (
+				90E4E19669A6AA5C316FB178 /* [CP] Check Pods Manifest.lock */,
+				188EA71D1EEFA8CF00873216 /* Sources */,
+				188EA71E1EEFA8CF00873216 /* Frameworks */,
+				188EA71F1EEFA8CF00873216 /* Resources */,
+				9F5298B402EB7B812ECCED38 /* [CP] Embed Pods Frameworks */,
+				B2DCC7524717A2DE2FE9DCFF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				188EA7231EEFA8CF00873216 /* PBXTargetDependency */,
+			);
+			name = HangarooUITests;
+			productName = HangarooUITests;
+			productReference = 188EA7211EEFA8CF00873216 /* HangarooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		188EA6FA1EEFA8CF00873216 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bekbolat;
+				TargetAttributes = {
+					188EA7011EEFA8CF00873216 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = AB65P3C5XF;
+						ProvisioningStyle = Automatic;
+					};
+					188EA7151EEFA8CF00873216 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 188EA7011EEFA8CF00873216;
+					};
+					188EA7201EEFA8CF00873216 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 188EA7011EEFA8CF00873216;
+					};
+				};
+			};
+			buildConfigurationList = 188EA6FD1EEFA8CF00873216 /* Build configuration list for PBXProject "Hangaroo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 188EA6F91EEFA8CF00873216;
+			productRefGroup = 188EA7031EEFA8CF00873216 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188EA7011EEFA8CF00873216 /* Hangaroo */,
+				188EA7151EEFA8CF00873216 /* HangarooTests */,
+				188EA7201EEFA8CF00873216 /* HangarooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		188EA7001EEFA8CF00873216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183521B01EFB933200E1B816 /* words.json in Resources */,
+				188EA7101EEFA8CF00873216 /* LaunchScreen.storyboard in Resources */,
+				18F588461F04CD6500D4ECB8 /* TrashHand.TTF in Resources */,
+				188EA70D1EEFA8CF00873216 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA7141EEFA8CF00873216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA71F1EEFA8CF00873216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3807B087B037EE9588897F5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F98738C4B2E750823328C8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangarooTests/Pods-HangarooTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8923F2F4F2196A79C90DC06E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangarooTests/Pods-HangarooTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90E4E19669A6AA5C316FB178 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		98710B53EAE6BF5C9AD4FE46 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hangaroo/Pods-Hangaroo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F5298B402EB7B812ECCED38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangarooUITests/Pods-HangarooUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2DCC7524717A2DE2FE9DCFF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HangarooUITests/Pods-HangarooUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B451FD382B02BE4587EB0BFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hangaroo/Pods-Hangaroo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC5A6ED4018D57C24B4C32F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		188EA6FE1EEFA8CF00873216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				181F7B411F02611000572FD6 /* ThemesListCollectionViewCell.swift in Sources */,
+				18A9FDF11EF7F839006C9D16 /* Support.swift in Sources */,
+				188075FB1EF27F1000D33EA6 /* AnswerCollectionViewCell.swift in Sources */,
+				1878FE1B1EF1024C00BCD443 /* BottomKeyboardCollectionViewCell.swift in Sources */,
+				188EA7081EEFA8CF00873216 /* PlayViewController.swift in Sources */,
+				188EA7061EEFA8CF00873216 /* AppDelegate.swift in Sources */,
+				183521B21EFBBBBF00E1B816 /* ThemesViewController.swift in Sources */,
+				188EA7341EEFE2E200873216 /* TopKeyboardCollectionViewCell.swift in Sources */,
+				186D664D1EFD350000FB2BF6 /* Words.swift in Sources */,
+				188075F31EF27B7A00D33EA6 /* extensions.swift in Sources */,
+				187454411F25CE5A00FC51E2 /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA7121EEFA8CF00873216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EA71B1EEFA8CF00873216 /* HangarooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		188EA71D1EEFA8CF00873216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188EA7261EEFA8CF00873216 /* HangarooUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		188EA7181EEFA8CF00873216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188EA7011EEFA8CF00873216 /* Hangaroo */;
+			targetProxy = 188EA7171EEFA8CF00873216 /* PBXContainerItemProxy */;
+		};
+		188EA7231EEFA8CF00873216 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 188EA7011EEFA8CF00873216 /* Hangaroo */;
+			targetProxy = 188EA7221EEFA8CF00873216 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		188EA70E1EEFA8CF00873216 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				188EA70F1EEFA8CF00873216 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		188EA7281EEFA8CF00873216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		188EA7291EEFA8CF00873216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		188EA72B1EEFA8CF00873216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A52408C56164FE7714AC951 /* Pods-Hangaroo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = Hangaroo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BekbolatKuanyshev.Hangaroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		188EA72C1EEFA8CF00873216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C6256E9909735FED6496A0C /* Pods-Hangaroo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AB65P3C5XF;
+				INFOPLIST_FILE = Hangaroo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BekbolatKuanyshev.Hangaroo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		188EA72E1EEFA8CF00873216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259C63DE3F85CD8040B9281B /* Pods-HangarooTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HangarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.HangarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangaroo.app/Hangaroo";
+			};
+			name = Debug;
+		};
+		188EA72F1EEFA8CF00873216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4364C501D9AB08A98350A7F /* Pods-HangarooTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HangarooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.HangarooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hangaroo.app/Hangaroo";
+			};
+			name = Release;
+		};
+		188EA7311EEFA8CF00873216 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B49646547AA1AC31A7CFDC10 /* Pods-HangarooUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HangarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.HangarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hangaroo;
+			};
+			name = Debug;
+		};
+		188EA7321EEFA8CF00873216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012E5D2D6C4AC70EBDAEBA90 /* Pods-HangarooUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = HangarooUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sdu.edu.kz.HangarooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Hangaroo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		188EA6FD1EEFA8CF00873216 /* Build configuration list for PBXProject "Hangaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EA7281EEFA8CF00873216 /* Debug */,
+				188EA7291EEFA8CF00873216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EA72A1EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "Hangaroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EA72B1EEFA8CF00873216 /* Debug */,
+				188EA72C1EEFA8CF00873216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EA72D1EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "HangarooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EA72E1EEFA8CF00873216 /* Debug */,
+				188EA72F1EEFA8CF00873216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		188EA7301EEFA8CF00873216 /* Build configuration list for PBXNativeTarget "HangarooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				188EA7311EEFA8CF00873216 /* Debug */,
+				188EA7321EEFA8CF00873216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 188EA6FA1EEFA8CF00873216 /* Project object */;
+}

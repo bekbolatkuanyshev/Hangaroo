@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Cartography (1.1.0)
+  - ObjectMapper (2.2.7)
+  - Sugar (3.1.2)
+
+DEPENDENCIES:
+  - Alamofire
+  - Cartography
+  - ObjectMapper
+  - Sugar
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Cartography: 0538ccb4044acbbda2266335fc58cb4228794d90
+  ObjectMapper: 72db79d978646657a8be1bd11fcec0aee8a1eba2
+  Sugar: e2eb40928c2589bf55977e335a5bc183d09cce24
+
+PODFILE CHECKSUM: e74b4b4fa3b210b0bcd648060fc4a0f1d30a2be5
+
+COCOAPODS: 1.2.0
